@@ -1,0 +1,36 @@
+{
+	"type": "module",
+	"name": "@intrnl/babel-plugin-graphql-compress",
+	"description": "Babel plugin for compressing GraphQL queries",
+	"version": "0.1.0",
+	"author": "intrnl",
+	"license": "MIT",
+	"repository": {
+		"url": "https://codeberg.org/intrnl/babel-plugin-graphql-compress"
+	},
+	"files": [
+		"src/"
+	],
+	"main": "src/index.js",
+	"peerDependencies": {
+		"graphql": "^16.6.0",
+		"graphql-web-lite": "^16.1.1000"
+	},
+	"peerDependenciesMeta": {
+		"graphql": {
+			"optional": true
+		},
+		"graphql-web-lite": {
+			"optional": true
+		}
+	},
+	"dependencies": {
+		"@babel/helper-plugin-utils": "^7.20.2"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.20.12",
+		"@babel/types": "^7.20.7",
+		"graphql": "^16.6.0",
+		"graphql-web-lite": "^16.1.1000"
+	}
+}
